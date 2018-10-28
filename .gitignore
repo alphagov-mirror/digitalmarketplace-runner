@@ -3,6 +3,8 @@ logs/*
 __pycache__
 .mypy_cache
 
+*.sql
+*.sql.gz
+
 config/config.yml
-config/sql/data/*
 code/*

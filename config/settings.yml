@@ -6,13 +6,13 @@
 base-git-url: git@github.com:alphagov
 
 # The path to the Docker compose file used for running services. This shouldn't need to change.
-docker-compose-filepath: config/docker-compose.yml
+docker-compose-filepath: config/services/docker-compose.yml
 
 # The host to query when running healthchecks on apps
 server: localhost
 
 data-dump-url: https://drive.google.com/drive/u/0/folders/0B9HQ_eYjd1zjWm9DaEpNUzZhRzg
-sql-data-path: config/sql/data
+sql-data-path: config/services/sql/data
 
 # Details repositories to be downloaded, bootstrapped, and executed.
 repositories:
