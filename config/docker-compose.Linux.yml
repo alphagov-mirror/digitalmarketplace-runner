@@ -9,3 +9,6 @@ services:
 
   postgres:
     network_mode: host
+  
+  redis:
+    network_mode: host
